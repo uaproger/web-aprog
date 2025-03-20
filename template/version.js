@@ -22,7 +22,7 @@ if (!fs.existsSync(filePath)) {
 
     const defaultJson = {
         name: "web-aprog",
-        version: "1.0.0",
+        version: "1.0.0"
     };
 
     fs.writeFileSync(filePath, JSON.stringify(defaultJson, null, 4), 'utf8');

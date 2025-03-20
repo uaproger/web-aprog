@@ -13,13 +13,7 @@ https://www.npmjs.com/package/create-aprog-project
 ### Installation
 
 ```shell
-npm create-aprog-project my-new-app
-```
-
-or
-
-```shell
-npm i create-aprog-project 
+npx uaproger/web-aprog
 ```
 
 ### License

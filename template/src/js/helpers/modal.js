@@ -101,7 +101,7 @@ export const closeAllModals = () => {
     backgrounds.forEach(item => item.remove());
     const body = document.querySelector('body');
     body.style.overflow = null;
-}
+};
 
 export const closeThisModal = (target) => {
     const modal = target.closest('.modal');
@@ -115,4 +115,4 @@ export const closeThisModal = (target) => {
         const body = document.querySelector('body');
         body.style.overflow = null;
     }
-}
+};

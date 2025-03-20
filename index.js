@@ -34,9 +34,50 @@ async function createProject() {
     packageJson.name = projectName;
     await fs.writeJson(packageJsonPath, packageJson, { spaces: 2 });
 
+    const projectJsonPath = path.join(targetPath, "project.json");
+    const projectJson = {
+        name: "web-aprog",
+        version: "1.0.0"
+    };
+    await fs.writeJson(projectJsonPath, projectJson, { spaces: 2 });
+
+    const gitignorePath = path.join(targetPath, ".gitignore");
+    const gitignoreContent = `
+        # Logs
+        logs
+        *.log
+        npm-debug.log*
+        yarn-debug.log*
+        yarn-error.log*
+        pnpm-debug.log*
+        lerna-debug.log*
+        
+        node_modules
+        dist
+        dist-ssr
+        *.local
+        
+        # Editor directories and files
+        .vscode/*
+        !.vscode/extensions.json
+        .idea
+        .DS_Store
+        *.suo
+        *.ntvs*
+        *.njsproj
+        *.sln
+        *.sw?
+        package-lock.json
+        project.json
+        public/build/
+        
+    `;
+    await fs.writeFile(gitignorePath, gitignoreContent.trim());
+
     console.log(chalk.green("✅ Проєкт успішно створено!"));
-    console.log(chalk.yellow(`➡ Перейдіть у папку: cd ${projectName}`));
-    console.log(chalk.yellow(`➡ Встановіть залежності: npm install`));
+    console.log(chalk.yellow(`➡ Перейдіть у папку та встановіть залежності:`));
+    console.log(chalk.yellow(`cd ${projectName}`));
+    console.log(chalk.yellow(`npm install`));
 }
 
 await createProject();

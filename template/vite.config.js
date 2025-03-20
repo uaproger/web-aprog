@@ -21,7 +21,7 @@ export default defineConfig({
         emptyOutDir: true,
         manifest: true,
         rollupOptions: {
-            input: path.resolve(__dirname, "src/js/main.js")
+            input: path.resolve(__dirname, "src/js/aprog.js")
         }
     },
     define: {
