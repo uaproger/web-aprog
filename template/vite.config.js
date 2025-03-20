@@ -6,9 +6,12 @@ export default defineConfig({
     root: ".",
     base: "/",
     server: {
-        watch: { usePolling: true },
-        host: "localhost",
-        port: 2025,
+        watch: {
+            usePolling: true,
+            ignored: ["node_modules", "public/build"]
+        },
+        // host: "web-aprog.loc",
+        // port: 2025,
         strictPort: true
     },
     resolve: {
@@ -16,14 +19,13 @@ export default defineConfig({
             "@": path.resolve(__dirname, "src")
         }
     },
-
     publicDir: "static",
     build: {
         outDir: "public/build",
         emptyOutDir: true,
         manifest: true,
         rollupOptions: {
-            input: path.resolve(__dirname, "src/js/aprog.js")
+            input: ["src/js/aprog.js", "src/css/index.css"]
         }
     },
     define: {

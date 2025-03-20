@@ -11,6 +11,10 @@ export const Home = () => {
                 src: "/logo.svg",
                 alt: "logo.svg"
             }),
+            div({
+                class: "text-3xl",
+                value: translate("web_aprog")
+            }),
             button({
                 class: "btn",
                 onClick: () => Modal({

@@ -1,8 +1,8 @@
-import "../css/index.css";
 import {router} from "aprog";
 import {routes} from "@/js/config/routes.js";
 import {loadTranslations} from "@/js/helpers/translator.js";
 import {getAppName} from "@/js/helpers/helper.js";
+import "@/css/index.css";
 
 document.addEventListener("DOMContentLoaded", async () => {
     // lang

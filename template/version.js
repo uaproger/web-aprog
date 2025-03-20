@@ -21,7 +21,7 @@ if (!fs.existsSync(filePath)) {
     console.warn(`\x1b[31m ${filePath} не знайдено. \x1b[34m Створюємо новий файл... \x1b[0m`);
 
     const defaultJson = {
-        name: "web-aprog",
+        name: "Web APROG",
         version: "1.0.0"
     };
 
