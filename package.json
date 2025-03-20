@@ -1,6 +1,6 @@
 {
   "name": "create-aprog-project",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Генератор нового проєкту",
   "bin": {
     "create-aprog-project": "index.js"
