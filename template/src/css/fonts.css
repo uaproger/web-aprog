@@ -1,0 +1,108 @@
+/* 
+
+    --- FONT FIXEL 2022 ---
+
+*/
+
+/* Webfont: MacPawFixelText-Black */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-Black.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 900;
+}
+/* Webfont: MacPawFixelText-ExtraBold */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-ExtraBold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-ExtraBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 800;
+}
+/* Webfont: MacPawFixelText-Bold */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 700;
+}
+/* Webfont: MacPawFixelText-SemiBold */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-SemiBold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-SemiBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 600;
+}
+/* Webfont: MacPawFixelText-Medium */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-Medium.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 500;
+}
+/* Webfont: MacPawFixelText-Regular */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 400;
+}
+/* Webfont: MacPawFixelText-Light */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-Light.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-Light.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 300;
+}
+/* Webfont: MacPawFixelText-ExtraLight */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-ExtraLight.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-ExtraLight.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 200;
+}
+/* Webfont: MacPawFixelText-Thin */@font-face {
+    font-family: 'Fixel';
+    src: url('../fonts/MacPawFixelText-Thin.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/MacPawFixelText-Thin.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 100;
+}
+
+
+/* 
+
+    --- SOFIA KYIVSKA 2004 ---
+
+*/
+/* Webfont: SofiaKyivska2004VasylChebanyk-Regular */@font-face {
+    font-family: 'Sofia Kyivska';
+    src: url('../fonts/SofiaKyivska2004VasylChebanyk.woff2') format('woff2');
+             font-style: normal;
+    font-weight: 400;
+}
+
+
+/* 
+
+    --- FONT RUTENIA 2008 ---
+
+*/
+/* Webfont: Rutenia2008VasylChebanyk-Regular */@font-face {
+    font-family: 'Rutenia';
+    src: url('../fonts/Rutenia2008VasylChebanyk.woff2') format('woff2');
+             font-style: normal;
+    font-weight: 400;
+}
+
+
+/* 
+
+    --- FONT RUTENIA ARIAL 2009 ---
+
+*/
+/* Webfont: RuteniaArial2009VasylChebanyk-Regular */@font-face {
+    font-family: 'Rutenia Arial';
+    src: url('../fonts/RuteniaArial2009VasylChebanyk.woff2') format('woff2');
+             font-style: normal;
+    font-weight: 400;
+}
