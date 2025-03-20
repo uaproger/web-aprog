@@ -12,12 +12,7 @@ export const Home = () => {
                 alt: "logo.svg"
             }),
             button({
-                style: {
-                    minWidth: "150px",
-                    height: "40px",
-                    border: "#043458",
-                    borderRadius: "8px"
-                },
+                class: "btn",
                 onClick: () => Modal({
                     title: translate("modal_title"),
                     body: translate("hello_world"),

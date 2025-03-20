@@ -62,7 +62,7 @@ const show = async ({ html = null, isClass = "", closed = true, styles = {} }) =
                 letterSpacing: "1px",
                 color: styles.color || "#043458"
             },
-            value: `${svg({ w: 16, h: 16}).version} modal ${getVersion()}`
+            value: `${svg({ w: 16, h: 16, fill: "none"}).version} modal ${getVersion()}`
         }));
         if (html) {
             if (isObject(html)) {

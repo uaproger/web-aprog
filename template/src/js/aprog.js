@@ -1,4 +1,4 @@
-import "../css/styles.css";
+import "../css/index.css";
 import {router} from "aprog";
 import {routes} from "@/js/config/routes.js";
 import {loadTranslations} from "@/js/helpers/translator.js";
@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     title.text = getAppName();
 
     // aprog
-    const aprog = document.getElementById("aprog");
-    await router({routes, aprog});
+    const main = document.getElementById("aprog");
+    await router({routes, main});
 });
