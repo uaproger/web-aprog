@@ -1,5 +1,13 @@
 import {div, span, isObject} from "aprog";
 import {svg} from "@/js/svg/svg.js";
+import {translate} from "@/js/helpers/translator.js";
+
+class AbortError extends Error {
+    constructor(message) {
+        super(message);
+        this.name = translate("AbortError");
+    }
+}
 
 let counterNotify = 1;
 
@@ -95,4 +103,9 @@ export const errors = (message, timing = 5000) => {
         timing: timing
     }).then();
     console.error("❌ " + message);
+};
+
+export const abort = (message, timing = 5000) => {
+    errors(message, timing);
+    throw new AbortError(` => ${message}`);
 };
